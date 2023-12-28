@@ -150,4 +150,13 @@ When users encounter issues or bugs in the JavaScript Counter App, providing cle
 
 By providing comprehensive information, users contribute to a smoother debugging process, making it easier for developers to identify, understand, and resolve the issues efficiently.
 
+
+### Contact Information
+If you have any questions or would like to collaborate, you can reach out to us through the following contact information:
+
+Email: srivastavatanmay561@gmail.com
+Alternative Email: yashsrivastava561@gmail.com
+Phone: +91 6394729329,
+Address: Uttar Pradesh, Bahraich, 271801
+Feel free to connect with us, and we'll get back to you as soon as possible!
 --- 
