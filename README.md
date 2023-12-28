@@ -91,4 +91,63 @@ This project does not have any external dependencies or build tools. It relies o
 - If you're running the project from a local file system, some browsers may restrict certain functionalities due to security policies. In such cases, consider using a local server or uploading the project to a web server.
 
 ---
+### Reporting Issues Guide
 
+When users encounter issues or bugs in the JavaScript Counter App, providing clear and detailed bug reports can greatly help developers diagnose and address the problems efficiently. Here's a guide on how users can report issues, and the information developers might find useful:
+
+---
+
+### Steps for Users to Report Issues:
+
+1. **Identify the Issue:**
+   - Clearly describe the problem you are experiencing. Be specific about what is not working as expected.
+
+2. **Reproducibility:**
+   - Provide steps to reproduce the issue. Include details on the actions taken that lead to the problem.
+
+3. **Environment:**
+   - Mention the web browser and version you are using (e.g., Chrome, Firefox, Safari).
+   - Specify your operating system (e.g., Windows 10, macOS, Linux).
+
+4. **Screenshots or Code Snippets:**
+   - Include screenshots if possible. Visuals can often convey issues more effectively.
+   - If the issue involves code, include relevant portions of the code, especially the JavaScript, CSS, or HTML related to the problem.
+
+5. **Console Errors:**
+   - Check the browser console for any error messages. Include error messages in your report, if available.
+
+6. **Expected vs Actual Behavior:**
+   - Clearly state what you expected to happen and what actually happened.
+
+### Information Developers Would Find Useful:
+
+1. **Code Snippets:**
+   - If possible, provide relevant sections of the code where the issue is occurring. This can greatly speed up the debugging process.
+
+2. **Browser and Version:**
+   - Specify the browser and its version. Some issues may be browser-specific.
+
+3. **Operating System:**
+   - Mention the operating system you are using. Certain issues may be platform-dependent.
+
+4. **Console Logs:**
+   - If there are any error messages in the browser console, include them in your bug report.
+
+5. **Steps to Reproduce:**
+   - Provide a step-by-step guide to reproduce the issue. This helps developers identify and isolate the problem quickly.
+
+6. **Screenshots or Videos:**
+   - Visuals can be very helpful. Include screenshots or short videos demonstrating the issue if applicable.
+
+7. **Expected vs Actual Results:**
+   - Clearly articulate what you expected the application to do and what it is doing instead.
+
+### Where to Report Issues:
+
+- If the project is hosted on a platform like GitHub, users can open an issue in the project's repository.
+- If there's a dedicated support forum or community, users can post their bug reports there.
+- If there's a contact email provided by the developer, users can send a detailed bug report via email.
+
+By providing comprehensive information, users contribute to a smoother debugging process, making it easier for developers to identify, understand, and resolve the issues efficiently.
+
+--- 
