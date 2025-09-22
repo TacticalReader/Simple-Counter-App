@@ -1,6 +1,4 @@
-Here is a README file for your JavaScript counter app:
 
----
 
 # JavaScript Counter App
 
