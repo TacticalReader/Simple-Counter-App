@@ -1,4 +1,3 @@
-Here’s a detailed and improved README draft for the Simple Counter App repository:
 
 ***
 
