@@ -1,6 +1,4 @@
 
-***
-
 # Simple Counter App
 
 A simple and responsive JavaScript Counter App. Use the "+" and "−" buttons to increment and decrement a counter with clean visual styling for an enhanced user experience.
