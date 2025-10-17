@@ -1,24 +1,42 @@
-let add = document.querySelector("#add");
-let subtract = document.querySelector("#subtract");
+// Cache DOM elements for performance
+const addButton = document.querySelector("#add");
+const subtractButton = document.querySelector("#subtract");
+const resetButton = document.querySelector("#reset");
+const outputSpan = document.querySelector("#output");
 
-add.addEventListener("click", function () {
-  let output = document.querySelector("#output");
-  let result = Number(output.innerText) + 1;
+// Constants for counter limits
+const MAX_COUNT = 1000;
+const MIN_COUNT = 0;
 
-  if (result > 1000) {
-    result = 0;
+// State
+let count = 0;
+
+// Function to update the display
+const updateDisplay = () => {
+  outputSpan.innerText = count;
+};
+
+// Event Listeners
+addButton.addEventListener("click", () => {
+  count++;
+  if (count > MAX_COUNT) {
+    count = MIN_COUNT;
   }
-
-  output.innerText = result;
+  updateDisplay();
 });
 
-subtract.addEventListener("click", function () {
-  let output = document.querySelector("#output");
-  let result = Number(output.innerText) - 1;
-
-  if (result < 0) {
-    result = 1000; 
+subtractButton.addEventListener("click", () => {
+  count--;
+  if (count < MIN_COUNT) {
+    count = MAX_COUNT;
   }
-
-  output.innerText = result;
+  updateDisplay();
 });
+
+resetButton.addEventListener("click", () => {
+  count = MIN_COUNT;
+  updateDisplay();
+});
+
+// Initial display update
+updateDisplay();
