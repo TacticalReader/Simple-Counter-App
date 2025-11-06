@@ -1,3 +1,18 @@
+const app = document.getElementById('app');
+
+// Generate and inject the HTML content
+app.innerHTML = `
+  <main class="container">
+      <h1>JavaScript Counter</h1>
+      <div class="counter_container">
+        <button id="subtract" aria-label="Decrement"><i class="fas fa-minus"></i></button>
+        <span id="output">0</span>
+        <button id="add" aria-label="Increment"><i class="fas fa-plus"></i></button>
+      </div>
+      <button id="reset" aria-label="Reset"><i class="fas fa-sync-alt"></i> Reset</button>
+  </main>
+`;
+
 // Cache DOM elements for performance
 const addButton = document.querySelector("#add");
 const subtractButton = document.querySelector("#subtract");
